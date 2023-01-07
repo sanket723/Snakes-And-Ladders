@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.snake_ladder.GamePageController"
+            prefHeight="400.0" prefWidth="600.0">
+
+ <children>
+
+     <ImageView fitHeight="500" fitWidth="800" layoutX="0" layoutY="0">
+         <image>
+             <Image url = "@GamePage.jpg" />
+         </image>
+     </ImageView>
+
+<!--     <ImageView fitHeight="125" fitWidth="125" layoutX="525" layoutY="50">-->
+<!--         <image>-->
+<!--             <Image url = "@playButton5.jpg" />-->
+<!--         </image>-->
+<!--     </ImageView>-->
+
+     <ImageView fx:id="Play" fitHeight="120" fitWidth="170" layoutX="165" layoutY="350" onMouseClicked="#play">
+         <image>
+             <Image url = "@play1.jpg" />
+         </image>
+     </ImageView>
+
+ </children>
+</AnchorPane>
