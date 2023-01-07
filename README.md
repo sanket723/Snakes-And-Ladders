@@ -6,15 +6,15 @@ This project includes a simple command-line interface for playing the game.
 
 To run the game, compile the Java files and run the Main class.
 
-Requirements
+Requirements : 
 Java SE 8 or above
 
-Features
+Features : 
 Two-player game mode
 Basic board with 10 spaces and a few snakes and ladders
 Players roll a six-sided die to move their game piece
 
-Future Plans
+Future Plans : 
 Add the option for single-player mode against an AI opponent
 Customize the board with more spaces and additional snakes and ladders
 Allow players to customize the number of dice sides and number of players
